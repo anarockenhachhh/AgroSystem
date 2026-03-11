@@ -2,8 +2,6 @@
 
 Projeto de interface para gerenciamento agrícola desenvolvido para prática de layout e organização de código.
 
-![Preview 1](./imagens/tela1.png)
-![Preview 2](./imagens/tela2.png)
 
 ### 🛠 Tecnologias utilizadas:
 - HTML5
