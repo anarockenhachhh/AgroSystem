@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroSystem</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <aside class="menu-lateral">
+    <div class="logo">
+      <img src="../imagens/logo.png" alt="Logo">
+      <div class="logo-texto">
+        <span><strong>Agro</strong>System</span>
+        <small>Gestão Agrícola</small>
+      </div>
+    </div>
+    <nav>
+      <a href="#"><span class="ph ph-squares-four"></span> Dashboard</a>
+      <a href="#" class="ativa"><span class="ph-fill ph-users"></span> Clientes</a>
+      <a href="#"><span class="ph ph-tractor"></span> Culturas</a>
+      <a href="#"><span class="ph ph-package"></span> Estoque</a>
+      <a href="#"><span class="ph ph-receipt"></span> Vendas</a>
+    </nav>
+    <div class="rodape-menu">
+      <a href="#" class="config"><span class="ph ph-gear"></span> Configurações</a>
+      <div class="perfil-usuario">
+        <img src="../imagens/gerente.jpg" alt="Foto Marcos">
+        <div class="usuario-info">
+          <p>Marcos Silva</p>
+          <span>Gerente Agro</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="painel">
+    
+  <header class="topo">
+  <div class="caminho">
+    <button class="btn-voltar"><span class="ph ph-arrow-left"></span></button>
+    
+    <span class="id">#1054</span>
+    
+    <div class="nav-setas">
+      <span class="ph ph-caret-left"></span>
+      <span class="ph ph-caret-right"></span>
+    </div>
+  </div>
+
+  <div class="botoes-acoes">
+    <button class="btn-acao"><span class="ph ph-arrow-counter-clockwise"></span></button>
+    <button class="btn-acao"><span class="ph ph-plus"></span></button>
+    
+    <div class="divisor-v"></div>
+    
+    <button class="btn-acao editar"><span class="ph ph-pencil-simple"></span></button>
+    <button class="btn-acao lixeira"><span class="ph ph-trash"></span></button>
+  </div>
+</header>
+
+    <div class="miolo">
+      <section class="bloco">
+        <div class="bloco-topo">
+          <h2><span class="ph ph-user"></span> Informações Pessoais</h2>
+          <div class="contatos">
+            <button class="btn-verde"><span class="ph ph-whatsapp-logo"></span> WhatsApp</button>
+            <button class="btn-azul"><span class="ph ph-envelope"></span> Email</button>
+          </div>
+        </div>
+        <div class="perfil-topo">
+          <div class="avatar">TS</div>
+          <div class="nome-status">
+            <h1> Teste</h1>
+            <div class="tags">
+              <span class="tag azul">Produtor</span>
+              <span class="tag verde">Ativo</span>
+            </div>
+          </div>
+        </div>
+        <div class="dados-grade">
+          <div class="info"><label>CPF</label><p>123.456.789-00</p></div>
+          <div class="info"><label>Data de Cadastro</label><p>12/03/2023</p></div>
+          <div class="info"><label>Nascimento</label><p>01/01/2026 (110 anos)</p></div>
+          <div class="info"><label>Telefone</label><p>(51) 99876-5432</p></div>
+          <div class="info"><label>Email Principal</label><p>meuovo@agroemail.com.br</p></div>
+        </div>
+        <div class="notas">
+          <label>Observações</label>
+          <p>Cliente preferencial para compra de insumos de soja. Costuma realizar pedidos grandes no início da safra. Entrar em contato preferencialmente pela manhã.</p>
+        </div>
+      </section>
+
+      <div class="colunas-duplas">
+        <section class="bloco">
+          <div class="bloco-topo">
+            <h2><span class="ph ph-map-pin"></span> Endereços</h2>
+            <button class="btn-link">+ Novo Endereço</button>
+          </div>
+          <div class="item-lista">
+            <span class="minitag">Principal</span>
+            <p><strong>Fazenda Horizonte Verde</strong></p>
+            <p>Estrada Geral, km 15, Linha Bonita</p>
+            <p>Ijuí - RS, 98700-000</p>
+          </div>
+          <div class="item-lista">
+            <span class="minitag">Entrega</span>
+            <p><strong>Sede Administrativa</strong></p>
+            <p>Av. Brasil, 1500, Centro</p>
+            <p>Ijuí - RS, 98700-000</p>
+          </div>
+        </section>
+
+        <section class="bloco">
+          <div class="bloco-topo">
+            <h2><span class="ph ph-bank"></span> Dados Bancários</h2>
+            <button class="btn-link">+ Nova Conta</button>
+          </div>
+          <div class="item-lista">
+            <div class="banco-info">
+              <div class="banco-logo">BB</div>
+              <div class="banco-dados">
+            <strong>Banco do Brasil (001)</strong>
+            <div class="grade-banco">
+                <div class="info"><label>AGÊNCIA:</label><p>1234-5</p></div>
+                <div class="info"><label>CONTA:</label><p>98765-0</p></div>
+            </div>
+            <div class="info" style="margin-top: 4px;">
+                <label>CHAVE PIX:</label><p>123.456.789-00</p>
+            </div>
+</div>
+            </div>
+          </div>
+          <div class="item-lista">
+            <div class="banco-info">
+              <div class="banco-logo">SIC</div>
+              <div class="banco-dados">
+                <strong>Sicredi (748)</strong>
+                <div class="grade-banco">
+                  <div class="info"><label>Agência:</label><p>0101</p></div>
+                  <div class="info"><label>Conta:</label><p>44556-7</p></div>
+                </div>
+                <div class="info"><label>Chave Pix:</label><p>joao.silveira@email.com</p></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="bloco">
+        <div class="bloco-topo">
+          <h2><span class="ph ph-clock-counter-clockwise"></span> Histórico de Atividades</h2>
+          <a href="#" class="btn-link">Ver tudo</a>
+        </div>
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>DATA</th>
+              <th>TIPO</th>
+              <th>DESCRIÇÃO</th>
+              <th>VALOR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10/10/2023</td>
+              <td><span class="status-tag venda">Venda</span></td>
+              <td>Sementes de Soja (50 sacas)</td>
+              <td><strong>R$ 12.500,00</strong></td>
+            </tr>
+            <tr>
+              <td>05/09/2023</td>
+              <td><span class="status-tag visita">Visita</span></td>
+              <td>Visita técnica - Agrônomo Marcos</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>15/08/2023</td>
+              <td><span class="status-tag orcamento">Orçamento</span></td>
+              <td>Fertilizantes NPK</td>
+              <td><strong>R$ 45.000,00</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="bloco">
+        <div class="bloco-topo">
+          <h2><span class="ph ph-clock-countdown"></span> Histórico de Modificações</h2>
+        </div>
+        <div class="timeline">
+          <div class="evento">
+            <span class="ponto"></span>
+            <div class="evento-info">
+              <time>15/10/2023 às 14:30</time>
+              <p>Dados bancários atualizados por <strong>Marcos Silva</strong></p>
+            </div>
+          </div>
+          <div class="evento">
+            <span class="ponto"></span>
+            <div class="evento-info">
+              <time>10/05/2023 às 09:15</time>
+              <p>Endereço de entrega adicionado por <strong>Ana Souza</strong></p>
+            </div>
+          </div>
+          <div class="evento final">
+            <span class="ponto"></span>
+            <div class="evento-info">
+              <time>12/03/2023 às 10:00</time>
+              <p>Criado por <strong>Marcos Silva</strong></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</body>
+</html>

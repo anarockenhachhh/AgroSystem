@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSystem</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <aside class="menu-lateral">
+        <div class="logo">
+            <img src="../imagens/logo.png" alt="Logo">
+            <div class="logo-texto">
+                <span><strong>Agro</strong>System</span>
+                <small>Gestão Agrícola</small>
+            </div>
+        </div>
+        <nav>
+            <a href="#"><span class="ph ph-squares-four"></span> Dashboard</a>
+            <a href="#" class="ativa"><span class="ph-fill ph-users"></span> Clientes</a>
+            <a href="#"><span class="ph ph-tractor"></span> Culturas</a>
+            <a href="#"><span class="ph ph-package"></span> Estoque</a>
+            <a href="#"><span class="ph ph-receipt"></span> Vendas</a>
+        </nav>
+        <div class="rodape-menu">
+            <a href="#" class="item-config"><span class="ph ph-gear"></span> Configurações</a>
+            <div class="perfil-usuario">
+                <img src="../imagens/gerente.jpg" alt="Foto Marcos">
+                <div class="usuario-info">
+                    <p>Marcos Silva</p>
+                    <span>Gerente Agro</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main class="conteudo-principal">
+        <div class="secao-cabecalho">
+            <h1>Clientes</h1>
+            <p>Gerencie sua base de produtores e parceiros</p>
+        </div>
+
+        <div class="controles-topo">
+            <div class="wrapper-busca">
+                <span class="ph ph-magnifying-glass"></span>
+                <input type="text" placeholder="Buscar por nome, CPF ou CNPJ...">
+            </div>
+            <button class="btn"><span class="ph ph-sliders"></span> Filtros</button>
+            <button class="btn"><span class="ph ph-download-simple"></span> Exportar</button>
+            <button class="btn btn-primario"><span class="ph ph-plus"></span> Novo Cliente</button>
+        </div>
+
+        <div class="filtros-ativos">
+            <span>Filtros ativos:</span>
+            <div class="chip-filtro">Tipo: Produtor <span class="ph ph-x"></span></div>
+            <div class="chip-filtro">Estado: RS <span class="ph ph-x"></span></div>
+            <div class="chip-filtro">Status: Ativo <span class="ph ph-x"></span></div>
+            <button class="btn-limpar">Limpar todos</button>
+        </div>
+
+        <div class="barra-selecao">
+            <div><span class="ph-fill ph-check-circle"></span> 1 item selecionado</div>
+            <button class="btn btn-pequeno">Ações em massa <span class="ph ph-caret-down"></span></button>
+        </div>
+
+        <div class="cartao-dados">
+            <table>
+                <thead>
+                    <tr>
+                        <th width="40"><input type="checkbox"></th>
+                        <th width="80">AÇÕES</th>
+                        <th width="100">ID</th>
+                        <th width="140">TIPO CLIENTE</th>
+                        <th>NOME/RAZÃO SOCIAL</th>
+                        <th width="180">CPF/CNPJ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="selecionado">
+                        <td><input type="checkbox" checked></td>
+                        <td><span class="ph ph-dots-three-outline-vertical icone-acao"></span></td>
+                        <td><strong>#1054</strong></td>
+                        <td><span class="etiqueta produtor">Produtor</span></td>
+                        <td>
+                            <div class="celula-usuario">
+                                <div class="avatar av-verde">JS</div>
+                                <strong>João Silveira</strong>
+                            </div>
+                        </td>
+                        <td>123.456.789-00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><span class="ph ph-dots-three-outline-vertical icone-acao"></span></td>
+                        <td><strong>#1053</strong></td>
+                        <td><span class="etiqueta empresa">Empresa</span></td>
+                        <td>
+                            <div class="celula-usuario">
+                                <div class="avatar av-amarelo">FB</div>
+                                <strong>Fazenda Boa Vista</strong>
+                            </div>
+                        </td>
+                        <td>00.111.222/0001-33</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><span class="ph ph-dots-three-outline-vertical icone-acao"></span></td>
+                        <td><strong>#1052</strong></td>
+                        <td><span class="etiqueta produtor">Produtor</span></td>
+                        <td>
+                            <div class="celula-usuario">
+                                <div class="avatar av-verde">AP</div>
+                                <strong>Antônio Pereira</strong>
+                            </div>
+                        </td>
+                        <td>987.654.321-11</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><span class="ph ph-dots-three-outline-vertical icone-acao"></span></td>
+                        <td><strong>#1051</strong></td>
+                        <td><span class="etiqueta empresa">Empresa</span></td>
+                        <td>
+                            <div class="celula-usuario">
+                                <div class="avatar av-roxo">SP</div>
+                                <strong>Sementes Progresso</strong>
+                            </div>
+                        </td>
+                        <td>44.555.666/0001-77</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><span class="ph ph-dots-three-outline-vertical icone-acao"></span></td>
+                        <td><strong>#1050</strong></td>
+                        <td><span class="etiqueta produtor">Produtor</span></td>
+                        <td>
+                            <div class="celula-usuario">
+                                <div class="avatar av-verde">LM</div>
+                                <strong>Luciana Mendes</strong>
+                            </div>
+                        </td>
+                        <td>555.444.333-22</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="rodape-paginacao">
+                <div class="paginacao-info">
+                    <span>Mostrando 1-5 de 150 clientes</span>
+                    <div class="seletor-linhas">
+                        Linhas por página: 
+                        <select>
+                            <option>10</option>
+                            <option>20</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="navegacao-paginas">
+                    <span class="ph ph-caret-double-left desativado"></span>
+                    <span class="ph ph-caret-left desativado"></span>
+                    <a href="#" class="btn-pag ativo">1</a>
+                    <a href="#" class="btn-pag">2</a>
+                    <a href="#" class="btn-pag">3</a>
+                    <span class="pontos">...</span>
+                    <a href="#" class="btn-pag">30</a>
+                    <span class="ph ph-caret-right ativo"></span>
+                    <span class="ph ph-caret-double-right ativo"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
